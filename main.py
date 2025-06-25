@@ -33,7 +33,9 @@ def main():
         
         # drawing player
         player.draw(screen)
-
+        
+        # update the player
+        player.update(dt)
 
 
         # updates the screen
